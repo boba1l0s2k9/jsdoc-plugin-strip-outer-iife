@@ -1,0 +1,31 @@
+{
+    "name": "jsdoc-plugin-strip-outer-iife",
+    "version": "0.0.1",
+    "description": "JSDoc plugin to filter out root-level IIFE before processing",
+    "author": "boba1l0s2k9 <boba1l0s2k9@outlook.com>",
+    "homepage": "https://github.com/boba1l0s2k9/jsdoc-plugin-strip-outer-iife",
+    "keywords": ["jsdoc", "jsdoc-plugin", "iife", "node"],
+    "main": "strip-outer-iife.js",
+    "contributors": [
+        "boba1l0s2k9 <boba1l0s2k9@outlook.com> (https://github.com/boba1l0s2k9)"
+    ],
+    "engines": { "node": ">=0.6.0" },
+    "devDependencies": { "tap": ">=0.4.6", "jshint": ">=2.3.0", "jsdoc": ">=3.3.0" },
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/boba1l0s2k9/jsdoc-plugin-strip-outer-iife.git"
+    },
+    "bugs": {
+        "mail": "boba1l0s2k9@outlook.com",
+        "url": "https://github.com/boba1l0s2k9/jsdoc-plugin-strip-outer-iife/issues"
+    },
+    "licenses": [
+        {
+            "type": "CC0",
+            "url": "https://github.com/boba1l0s2k9/jsdoc-plugin-strip-outer-iife/raw/master/LICENSE"
+        }
+    ],
+    "scripts": {
+        "test": "tap test/[0-9]*.js"
+    }
+}
