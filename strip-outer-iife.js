@@ -10,7 +10,7 @@
 var comment_line  = '(?://.*?\r?\n)',
     comment_block = '(?:[/][*](?:[^\n]*?\n)*?.*?[*][/])',
     comments      = '((?:' + comment_line + '|' + comment_block + '|[\s\n]*)*)',
-    iife_start    = '(^[(]function\s*[(][)]\s*[{]\s*\n)',
+    iife_start    = '(^[(]function\s*[(][^)]*[)]\s*[{]\s*\n)',
     iife_end_in   = '(?:[(][^)]*[)][)])',
     iife_end_out  = '(?:[)][(][^)]*[)])',
     iife_end_cs   = '(?:[)][.]call[(][^)]*[)])',
